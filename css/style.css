@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,700;1,600&family=Roboto:wght@300&display=swap');
+
+/* 
+   * Roboto --> Light 300
+   * Bodoni Moda --> semi-bold 600 italic; bold 700; 
+   */
+
+:root {
+  --main-font: font-family: "Roboto", sans-serif;
+  --secondary-font: font-family: "Bodoni Moda", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+
+
+
+}
