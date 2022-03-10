@@ -20,7 +20,7 @@ body {
   background: wheat;
 }
 
-#intro-header {
+#intro-header, #main-header, #main-copy-paragraph {
   font-family: var(--secondary-font);
   color: var(--main-color);
 }
@@ -36,7 +36,11 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  #main-copy-paragraph {
+  #intro-header, #main-header, #main-copy-paragraph {
     text-align: center;
+  }
+
+  #socials {
+    border: solid red 1px;
   }
 }
