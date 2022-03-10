@@ -6,8 +6,9 @@
    */
 
 :root {
-  --main-font: font-family: "Roboto", sans-serif;
-  --secondary-font: font-family: "Bodoni Moda", serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Bodoni Moda", serif;
+  --main-color: hotpink;
 }
 
 * {
@@ -16,8 +17,26 @@
 }
 
 body {
-  
+  background: wheat;
+}
+
+#intro-header {
+  font-family: var(--secondary-font);
+  color: var(--main-color);
+}
 
 
 
+/** MEDIA QUERIES **/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #main-copy-paragraph {
+    text-align: center;
+  }
 }
