@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,600;0,700;1,700&family=Roboto&display=swap');
 
 /* 
-   * Roboto --> Light 300
+   * Roboto --> regular 400
    * Bodoni Moda --> semi-bold 600 italic; bold 700; 
    */
 
@@ -14,10 +14,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background: wheat;
 }
 
 
@@ -64,9 +60,10 @@ body {
 
   #main-copy-paragraph {
     font-family: var(--primary-font-roboto);
-    font-size: 1.4rem;
-    padding: 0 40px;
+    font-size: 1.35rem;
+    padding: 0 51px;
     margin-top: 15px;
+    margin-bottom: 25px;
     line-height: 1.7;
     text-align: center;
   }
