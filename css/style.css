@@ -20,28 +20,6 @@ body {
   background: wheat;
 }
 
-#intro-header {
-  font-family: var(--secondary-font-bodoni-moda);
-  font-weight: 700;
-  font-size: 2rem;
-  font-style: italic;
-}
-
-#main-header {
-  font-family: var(--secondary-font-bodoni-moda);
-  font-weight: 700;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
-#main-copy-paragraph {
-  font-family: var(--primary-font-roboto);
-  font-size: 1.4rem;
-  padding: 0 40px;
-  line-height: 1.8;
-}
-
-
 
 /** MEDIA QUERIES **/
 /* Medium devices (landscape tablets, 768px and up) */
@@ -61,10 +39,34 @@ body {
   #socials-container {
     display: flex;
     justify-content: center;
-    align-content: center;
+  }
+
+  #intro-header {
+    font-family: var(--secondary-font-bodoni-moda);
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 30px;
+  }
+
+  #main-header {
+    font-family: var(--secondary-font-bodoni-moda);
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+    border: solid red 1px;
   }
 
   #main-copy-paragraph {
+    font-family: var(--primary-font-roboto);
+    font-size: 1.4rem;
+    padding: 0 40px;
+    margin-top: 15px;
+    line-height: 1.7;
     text-align: center;
   }
 
