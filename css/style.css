@@ -68,6 +68,32 @@
     text-align: center;
   }
 
+  #input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 45px;
+    gap: 10px;
+  }
+
+  #enter-user-info-textbox {
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #enter-user-info-button {
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+    border: #000;
+  }
+
   #socials {
     border: solid red 1px;
   }
