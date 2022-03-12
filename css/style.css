@@ -18,7 +18,7 @@
 
 #hero-image-container {
   background: url(/images/startup-team-around-table.jpeg);
-  height: 100vh;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -102,10 +102,20 @@
     border: #000;
   }
 
+  #socials-container {
+    margin-bottom: 30px;
+  }
+
   #socials {
     border: solid red 1px;
   }
 
+  #fb-social-icon,
+  #fb-twitter-icon,
+  #fb-instagram-icon {
+    padding: 0 10px;
+  }
+  
   #hero-image-container {
     margin: 0 40px;
   }
