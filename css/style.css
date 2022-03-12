@@ -8,12 +8,32 @@
 :root {
   --primary-font-roboto: "Roboto", sans-serif;
   --secondary-font-bodoni-moda: "Bodoni Moda", serif;
-  /* --main-color: hotpink; */
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #000;
+  height: 5vh;
+  color: #fff;
+  font-family: var(--primary-font-roboto);
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-image-container {
@@ -88,6 +108,7 @@
     height: 50px;
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   #enter-user-info-button {
@@ -106,30 +127,13 @@
     margin-bottom: 30px;
   }
 
-  #socials {
-    border: solid red 1px;
-  }
-
   #fb-social-icon,
   #fb-twitter-icon,
   #fb-instagram-icon {
     padding: 0 10px;
   }
-  
+
   #hero-image-container {
     margin: 0 40px;
   }
-
-  footer {
-    background: #000;
-    height: 5vh;
-    color: #fff;
-    font-family: var(--primary-font-roboto);
-    font-size: 1.1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
 }
