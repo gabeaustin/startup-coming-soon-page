@@ -14,8 +14,16 @@
 * {
   margin: 0;
   padding: 0;
+  /* background: orchid; */
 }
 
+#hero-image-container {
+  background: url(/images/startup-team-around-table.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /** MEDIA QUERIES **/
 /* Medium devices (landscape tablets, 768px and up) */
@@ -98,4 +106,6 @@
   #socials {
     border: solid red 1px;
   }
+
+
 }
