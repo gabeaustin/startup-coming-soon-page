@@ -1,4 +1,6 @@
 # Start-Up Coming Soon Page
+## [Link to Site](https://gabeaustin.github.io/startup-coming-soon-page/)
+<br>
 
 This is a fully-responsive **Coming Soon** landing page.
 
