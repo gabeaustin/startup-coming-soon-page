@@ -37,8 +37,8 @@ footer {
 }
 
 #hero-image-container {
+  height: 100vh;
   background: url(/images/startup-team-around-table.jpeg);
-  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -145,6 +145,7 @@ footer {
   }
 
   #hero-image-container {
+    background: url(/images/startup-team-around-table.jpeg);
     height: 100vh;
     width: 50vw;
     background-position: center;
