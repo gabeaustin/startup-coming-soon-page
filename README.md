@@ -12,13 +12,13 @@ This is a fully-responsive **Coming Soon** landing page.
 
 ## Screen Captures
 ### Mobile View <br>
-![Mobile View](/images/mobile-screen-capture.png)
+<kdb>![Mobile View](/images/mobile-screen-capture.png)</kdb>
 
 ### Tablet View <br>
-![Tablet View](/images/tablet-screen-capture.png)
+<kdb>![Tablet View](/images/tablet-screen-capture.png)</kdb>
 
 ### Desktop View <br>
-![Desktop View](/images/desktop-screen-capture.png)
+<kdb>![Desktop View](/images/desktop-screen-capture.png)</kdb>
 
 <br/>
 <br/>
