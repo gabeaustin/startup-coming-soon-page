@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,600;0,700;1,700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,600;0,700;1,700&family=Montserrat&display=swap');
 
 /* 
-   * Roboto --> regular 400
+   * Montserrat --> regular 400
    * Bodoni Moda --> semi-bold 600 italic; bold 700; 
    */
 
 :root {
-  --primary-font-roboto: "Roboto", sans-serif;
-  --secondary-font-bodoni-moda: "Bodoni Moda", serif;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Bodoni Moda", serif;
 }
 
 * {
@@ -29,7 +29,7 @@ footer {
   background: #000;
   height: 5vh;
   color: #fff;
-  font-family: var(--primary-font-roboto);
+  font-family: var(--primary-font);
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
@@ -85,14 +85,14 @@ footer {
   }
 
   #intro-header {
-    font-family: var(--secondary-font-bodoni-moda);
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 1.9rem;
     font-style: italic;
   }
 
   #main-header {
-    font-family: var(--secondary-font-bodoni-moda);
+    font-family: var(--secondary-font);
     font-weight: 600;
     font-size: 2.5rem;
     padding: 0 10px;
@@ -105,7 +105,7 @@ footer {
   }
 
   #main-copy-paragraph {
-    font-family: var(--primary-font-roboto);
+    font-family: var(--primary-font);
     font-size: 1.4rem;
     margin-top: 25px;
     margin-bottom: 30px;
@@ -169,7 +169,7 @@ footer {
   }
 
   #intro-header {
-    font-family: var(--secondary-font-bodoni-moda);
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 2rem;
     font-style: italic;
@@ -177,7 +177,7 @@ footer {
   }
 
   #main-header {
-    font-family: var(--secondary-font-bodoni-moda);
+    font-family: var(--secondary-font);
     font-weight: 600;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -190,7 +190,7 @@ footer {
   }
 
   #main-copy-paragraph {
-    font-family: var(--primary-font-roboto);
+    font-family: var(--primary-font);
     font-size: 1.35rem;
     padding: 0 51px;
     margin-top: 15px;
