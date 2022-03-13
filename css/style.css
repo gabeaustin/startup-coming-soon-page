@@ -71,7 +71,7 @@ footer {
   #input-container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    max-width: 50vw;
 
     border: solid salmon;
   }
@@ -114,15 +114,6 @@ footer {
     text-align: center;
   }
 
-  /* #input-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 45px;
-    gap: 10px;
-    margin-bottom: 80px;
-  } */
-
   #enter-user-info-textbox {
     height: 50px;
     font-size: 1.5rem;
@@ -146,7 +137,7 @@ footer {
     margin-top: 60px;
     display: flex;
 
-    width: 50vw;
+    max-width: 50vw;
 
     border: solid green;
   }
@@ -158,10 +149,11 @@ footer {
   }
 
   #hero-image-container {
-    margin: 0 40px;
-    width: 40vw;
-
-    border: solid blue;
+    height: 100vh;
+    width: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
